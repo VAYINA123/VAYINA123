@@ -1,0 +1,1 @@
+print('hellow my name is irakli and idk what to say about my self am just me ._.')
