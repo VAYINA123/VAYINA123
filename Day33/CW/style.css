@@ -1,0 +1,12 @@
+div{
+    height: 300px;
+    width: 200px;
+    background-color: rgb(255, 208, 0);
+    font-size: 32px;
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow:2px 7px 10px rgb(204, 179, 179) ;
+    box-shadow: 15px 7px 10px rgb(68, 2, 252);
+}
