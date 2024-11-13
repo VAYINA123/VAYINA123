@@ -33,8 +33,8 @@ header {
 
 
 #section1 button {
-    background-color: #2f65f9;
-    color: white;
+    background-color: #ff6b35;
+    color: #c4f1be;
     padding: 10px 30px 10px 30px;
     border-radius: 5px;
     border: none;
@@ -53,7 +53,7 @@ header {
 }
 
 #section2 {
-   background-color: #f8f8fe;
+   background-color: #845ec2;
     display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -64,11 +64,11 @@ header {
 #section2 #profile-img {
     width: 50px;
     border-radius: 50%;
-    border: 5px solid white;
+    border: 5px solid #ff9671;
 }
 
 #testimonial {
-    background-color: #ffffff;
+    background-color: #4ffbdf;
     padding: 20px;
     border-radius: 20px;
 }

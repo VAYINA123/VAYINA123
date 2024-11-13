@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f2f2;
+    background-color: #a8e6cf;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,14 +9,14 @@ body {
 
 .container {
     display: flex;
-    background-color: hsl(201, 42%, 86%);
+    background-color: #ff99c8;
     height: 500px;
     width: 900px;
     border-radius: 10px;
 }
 
 #box1 {
-    background-color: #e28525;
+    background-color: #3d84b8;
     height: 500px;
     width: 300px;
     border-top-left-radius: 10px;
@@ -26,11 +26,11 @@ body {
     justify-content: space-evenly;
     padding-left: 40px;
     align-items: flex-start;
-    color: white;
+    color: #f7d794;
 }
 
 #box2 {
-    background-color: #016972;
+    background-color: #ff6b6b;
     height: 500px;
     width: 300px;
     display: flex;
