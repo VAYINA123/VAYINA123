@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form</title>
+    <style>
+        /* საერთო სტილი ფორმისათვის */
+        form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* email input ველი */
+        input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: none; /* Border-ის მოშორება */
+            outline: none; /* Outline-ის მოშორება */
+            border-radius: 5px;
+            background-color: #e8f0fe;
+            font-size: 16px;
+            color: #333;
+        }
+
+        /* ჰოვერის და ფოკუსის ეფექტები */
+        input[type="email"]:focus {
+            background-color: #d0e2ff;
+            box-shadow: 0 0 5px #4a90e2;
+        }
+
+        /* ღილაკის სტილი */
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4a90e2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #357ABD;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
