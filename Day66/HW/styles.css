@@ -1,0 +1,48 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    /* user-select prefix */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.box1 {
+    /* transform prefix */
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    /* gradient prefix */
+    background: -webkit-linear-gradient(left, #ff6b6b, #4ecdc4);
+    background: -moz-linear-gradient(left, #ff6b6b, #4ecdc4);
+    background: -o-linear-gradient(left, #ff6b6b, #4ecdc4);
+    background: linear-gradient(to right, #ff6b6b, #4ecdc4);
+}
+
+.box2 {
+    /* box-shadow prefix */
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    /* gradient prefix */
+    background: -webkit-linear-gradient(top, #a8e6cf, #dcedc1);
+    background: -moz-linear-gradient(top, #a8e6cf, #dcedc1);
+    background: -o-linear-gradient(top, #a8e6cf, #dcedc1);
+    background: linear-gradient(to bottom, #a8e6cf, #dcedc1);
+}
+
+.box3 {
+    /* transform prefix */
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    transform: skew(20deg);
+    /* gradient prefix */
+    background: -webkit-linear-gradient(45deg, #ffd93d, #ff6b6b);
+    background: -moz-linear-gradient(45deg, #ffd93d, #ff6b6b);
+    background: -o-linear-gradient(45deg, #ffd93d, #ff6b6b);
+    background: linear-gradient(45deg, #ffd93d, #ff6b6b);
+} 

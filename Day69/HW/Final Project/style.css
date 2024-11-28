@@ -1,0 +1,36 @@
+body {
+    background-image: url(Images/body\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.buttons button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.introduction {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+body {
+    background-image: url(Images/body\ image.png);
+}
+
+
+

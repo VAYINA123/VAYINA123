@@ -1,0 +1,95 @@
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--off-black);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--dark-grey);
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 350px;
+    margin: 24px;
+}
+
+.profile-container {
+    text-align: center;
+}
+
+.profile-image {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+.name {
+    color: var(--white);
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.location {
+    color: var(--green);
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.bio {
+    color: var(--white);
+    margin-bottom: 24px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.social-link {
+    background-color: var(--grey);
+    color: var(--white);
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: var(--green);
+    color: var(--off-black);
+}
+
+/* რესპონსიული დიზაინი */
+@media (max-width: 375px) {
+    .card {
+        margin: 16px;
+        padding: 16px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .social-links {
+        gap: 12px;
+    }
+} 

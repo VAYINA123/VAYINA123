@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <center>
+        <form class="form" action="Data/index.php" method="post">
+         <div class="form-group">
+             <label for="FirstName"></label>
+             <input type="text" id="FirstName" name="FirstName" placeholder="Enter Your FirstName" minlength="6" maxlength="15" required>
+         </div>
+
+         <div class="form-group">
+                <label for="lastname"></label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter Your LastName" minlength="6" maxlength="15" required>
+         </div>
+
+         <div class="form-group">
+                 <label for="gmail"></label>
+                <input type="email" id="gmail" name="gmail" placeholder="example@exmaple.com" required>
+         </div>
+         <div class="form-group">
+            <label for="password"></label>
+           <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+        </div>
+            <a href="index.html">
+            <button type="submit" class="submit-btn">Submit</button>
+            </a>    
+        </form>
+    </center>
+</body>
+</html>
