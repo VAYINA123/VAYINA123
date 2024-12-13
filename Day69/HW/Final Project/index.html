@@ -1,42 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="images/icon.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <title>Log in</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body background="Images/body image.png">
-    <header>
-        <h3 class="header">
-            irakl's info
-        </h3>
-            <div class="buttons">
-                <a href="index.html">
-                    <button class="home-button">
-                        Home
-                    </button>
-                </a>
-                <a href="about.html">
-                    <button class="about-button">
-                        About
-                    </button>
-                </a>
-                <a href="gallery.html">
-                    <button class="gallery">
-                        gallery
-                    </button>
-                </a>
-                <a href="contact.html">
-                    <button class="contact">
-                        contact
-                    </button>
-                </a>
-            </div>
-    </header>
+<body>
+    <center>
+        <form class="form" action="Logged in.html">
+         <div class="form-group">
+             <input type="text" id="FirstName" name="FirstName" placeholder="Enter Your FirstName" minlength="6" maxlength="15" required>
+         </div>
 
-    <footer>
-        
-    </footer>
+         <div class="form-group">
+                <input type="text" id="lastname" name="lastname" placeholder="Enter Your LastName" minlength="6" maxlength="15" required>
+         </div>
+
+         <div class="form-group">
+                <input type="email" id="gmail" name="gmail" placeholder="example@exmaple.com" required>
+         </div>
+         <div class="form-group">
+           <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
+        </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </center>
+
+    
+
 </body>
 </html>

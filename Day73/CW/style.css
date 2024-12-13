@@ -1,0 +1,10 @@
+button{
+    background-color: black;
+    color: white;
+}
+button:hover {
+    background: linear-gradient(to right, blue, red);
+    transform: scale(2);
+    transition: 3s;
+
+}
